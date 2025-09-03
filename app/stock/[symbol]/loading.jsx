@@ -1,6 +1,3 @@
-// Skeleton hai jab tak stock load hoga tab tak ye show hoga
-// not GPT :p
-
 export default function LoadingStockPage() {
   return (
     <div className="max-w-4xl mx-auto py-10 animate-pulse">

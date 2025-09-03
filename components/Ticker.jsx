@@ -14,14 +14,14 @@ export default function Ticker() {
         const data = await res.json();
         setItems(data.tickerData || []);
       } catch (err) {
-        console.log("ticker fetch err ->", err); // casual log
+        console.log("ticker fetch err ->", err); 
       }
     }
 
     getTickerValue();
   }, []);
 
-  const duplicatedItems = [...items, ...items]; // for smooth scroll
+  const duplicatedItems = [...items, ...items]; 
 
   return (
     <div className="w-full overflow-hidden py-8">

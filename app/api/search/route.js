@@ -16,7 +16,7 @@ export async function GET(req) {
       { status: 200 }
     );
   } catch (err) {
-    // console.log("oops error while fetching", err); 
+    // console.log("error while fetching", err); 
     return NextResponse.json(
       { error: "Error while fetching Search value" },
       { status: 500 }

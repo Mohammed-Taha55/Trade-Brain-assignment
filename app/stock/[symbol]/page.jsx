@@ -27,7 +27,7 @@ export default async function Stock({ params }) {
   }
 
   const data = await res.json();
-  console.log("the data to display is ->", data); // casual log
+  console.log("the data to display is ->", data); 
 
   return (
     <main className="mx-auto max-w-[1200px] relative px-4 md:px-8 lg:px-16">

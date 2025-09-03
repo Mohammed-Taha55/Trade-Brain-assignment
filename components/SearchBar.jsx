@@ -15,7 +15,7 @@ export default function SearchBar() {
         const data = await res.json();
         setSearchValue(data.searchValue);
       } catch (e) {
-        console.log("err fetching search value", e); // casual log
+        console.log("err fetching search value", e);
       }
     }
 
@@ -68,10 +68,10 @@ export default function SearchBar() {
                   <h2 className="text-sm text-muted-foreground">
                     {stock.type}
                   </h2>
-                </motion.div>
+             </motion.div>
               </Link>
             ))}
-          </motion.div>
+   </motion.div>
         )}
       </div>
     </section>

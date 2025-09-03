@@ -8,7 +8,7 @@ export default function Home() {
       <div
         className="absolute inset-0 -z-10"
         style={{
-          background: "#fff", // small tweak, shorter hex
+          background: "#fff",
           backgroundImage: `
           radial-gradient(
             circle at top center,
